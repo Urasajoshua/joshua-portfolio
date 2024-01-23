@@ -11,19 +11,12 @@ export const navItems = [
         name: 'about',
         link: '/about'
     },
-    {
-        name: 'services',
-        link: '/services',
-        icon: <Icon icon="mingcute:down-line" color='white'/>
-    },
+    
     {
         name: 'projects',
         link: '/projects'
     },
-    {
-        name: 'contact',
-        link: '/contact'
-    },
+    
 ]
 
 export const skills = [
