@@ -86,11 +86,11 @@ const Home = () => {
           <form className='border rounded-2xl md:px-8 md:py-8'>
             <div className='grid md:grid-cols-2 '>
             <div className='flex flex-col px-4 md:py-4'>
-              <label className='flex  gap-1 first-letter:uppercase text-lg py-4 text-black'>firstname
+              <label className='flex  gap-1 first-letter:uppercase text-lg py-4'>firstname
                 <Icon icon="bitcoin-icons:star-filled" color='yellow' width={10} />
               </label>
 
-              <input placeholder='joshua' required type='text' className='py-3 rounded-2xl border px-6' />
+              <input placeholder='joshua' required type='text' className='py-3 text-black rounded-2xl border px-6' />
             </div>
 
             <div className='flex flex-col px-4 md:py-4'>
@@ -98,7 +98,7 @@ const Home = () => {
                 <Icon icon="bitcoin-icons:star-filled" color='yellow' width={10} />
               </label>
 
-              <input placeholder='urasa' type='text' required className='py-3 rounded-2xl border px-6' />
+              <input placeholder='urasa' type='text' required className='py-3 text-black rounded-2xl border px-6' />
             </div>
 
             <div className='flex flex-col px-4 md:py-4'>
@@ -113,7 +113,7 @@ const Home = () => {
                 <Icon icon="bitcoin-icons:star-filled" color='yellow' width={10} />
               </label>
 
-              <input placeholder='0779767577' type='text' className='py-3 rounded-2xl border px-6' />
+              <input placeholder='0779767577' type='text' className='py-3 text-black rounded-2xl border px-6' />
             </div>
 
             <div className='flex flex-col px-4 md:py-4'>
@@ -121,7 +121,7 @@ const Home = () => {
                 <Icon icon="bitcoin-icons:star-filled" color='yellow' width={10} />
               </label>
 
-              <textarea className='py03 px-6 rounded-2xl' required>write your subject</textarea>
+              <textarea className='py03 px-6 rounded-2xl text-black' required>write your subject</textarea>
             </div>
             </div>
             <div className='flex justify-center items-center'>
