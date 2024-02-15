@@ -4,6 +4,7 @@ import { Icon } from '@iconify/react';
 import Image from 'next/image';
 import Card from './components/Card';
 import CountUp from 'react-countup';
+import Link from 'next/link';
 
 
 const Home = () => {
@@ -28,12 +29,16 @@ const Home = () => {
 
 
           <div className='flex flex-col md:flex-row justify-start gap-8'>
+            <Link href={'mailto:urasajoshuag@gmail.com'}>
             <button className='bg-yellow-400 px-8 py-3 rounded-lg text-black flex justify-center items-center gap-2'>Hire Me
               <Icon className='inline ' icon="ooui:next-ltr" />
+              
             </button>
-            <button className='px-8 border border-white py-3 rounded-lg flex justify-center items-center gap-2'>Download Resume
+            </Link>
+           <Link href={''} download={'/joshua g urasa.pdf'} target='_blank'>
+           <button className='px-8 border border-white py-3 rounded-lg flex justify-center items-center gap-2'>Download Resume
               <Icon className='inline ' icon="ooui:next-ltr" />
-            </button>
+            </button></Link>
           </div>
         </div>
         <div className='w-1/2 flex justify-center items-center py-2'>
@@ -41,7 +46,7 @@ const Home = () => {
         </div>
         <div className='w-1/5  shadow-2xl flex flex-col space-y-8 justify-center items-center text-center py-2 mt-2 md:mt-0'>
           <div>
-            <h1 className='text-yellow-400 text-5xl font-extrabold'><CountUp start={0} end={2} delay={1} duration={2} />+</h1>
+            <h1 className='text-yellow-400 text-5xl font-extrabold'><CountUp start={0} end={1} delay={1} duration={2} />+</h1>
             <h2>Year of Experience</h2>
           </div>
           <div className='border border-white m-2 '></div>
@@ -106,7 +111,7 @@ const Home = () => {
                 <Icon icon="bitcoin-icons:star-filled" color='yellow' width={10} />
               </label>
 
-              <input placeholder='urasajoshuag@gmail.com' type='email' required className='py-3 rounded-2xl border px-6' />
+              <input placeholder='urasajoshuag@gmail.com' type='email' required className='py-3 text-black rounded-2xl border px-6' />
             </div>
             <div className='flex flex-col px-4 md:py-4'>
               <label className='flex  gap-1 first-letter:uppercase text-lg py-4'>phone
